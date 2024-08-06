@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"] {
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+.nav-links a,
+.auth-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.product-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-logo {
+    width: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#visit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#upvote-button {
+    background-color: #ff6b6b;
+    color: white;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.subscribe {
+    background-color: #fde8e6;
+    color: #fc5c65;
+}
+
+.sign-in {
+    background-color: #fc5c65;
+}
+.auth-links {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+}
